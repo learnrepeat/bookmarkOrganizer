@@ -1,0 +1,191 @@
+body {
+	margin: 0;
+	background-color: #f9f9f9;
+}
+
+.bookmarkContainer {
+	background-color: #f9f9f9;
+}
+
+.unsortedBookmarkFolder {
+	position: fixed;
+	width: 210px;
+	height: 100%;
+	background-color: #f5f7ff;
+}
+
+.unsortedHeader {
+	width: 100%;
+	height: 43px;
+	background-color: white;
+	text-align: center;
+	position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fdfdff;
+    width: 100%;
+    box-shadow: -5px 7px 11px 0px rgba(226, 226, 226, 0.2)
+    z-index: 1;
+}
+
+ul.dropdown-content-list {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.dropdown-content li {
+	padding: 5px;
+}
+
+#unsortedBookmark-dropdown {
+	padding: 15px;
+	background-color: white;
+	width: 100%;
+	border-style: none;
+	cursor: pointer;
+}
+
+.sortedBookmarkContainer {
+	display: inline-block;
+	margin-left: 230px;
+	height: 100%;
+}
+
+.bookmarkFolders {
+	display: inline-block;
+	width:  300px;
+	min-height: 200px;
+	padding: 15px 10px 15px 10px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.bookmarkFolders .bookmarkFoldersHeader {
+	text-align: center;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #eaeaea;
+	background-color: #f9f9f9;
+}
+
+.bookmarkPage-placeholder {
+	background-color: #b9ffef;
+	height: 33px; 
+	filter: blur(3px);
+	filter: opacity(.15);
+}
+
+.favicon {
+	vertical-align: middle;
+	display: inline-block;
+	width: 11px;
+	min-height: 11px;
+	border-radius: 180px;
+	background-color: black;
+	margin-right: 7px;
+}
+
+ul.bookmarkFoldersList {
+	position: relative;
+	min-height: 200px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+li.bookmarkPages {
+	width: 270px;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 4px 4px 10px 0px rgba(197, 197, 197, 0.19);
+	border-radius: 5px;
+	line-height: 1.5;
+}
+
+.unsorted {
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.unsortedList {
+	margin-top: 25px;
+	list-style-type: none;
+}
+
+.addFolder {
+	width: 100px;
+	height: 20px;
+	background-color: white;
+	position: fixed;
+	bottom: 40px; right: 40px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	box-shadow: 4px 3px 10px 4px rgba(0, 0, 0, 0.18);
+	text-align: center;
+	cursor: pointer;
+}
+
+.learnrepeat-footer {
+	width: 100px;
+	height: 20px;
+	position: fixed;
+	bottom: 30px; left: 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+	color: #4f4f73;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 0 20px 15px 20px;
+    border: 1px solid #888;
+    width: 300px;
+}
+
+/* The Close Button */
+.modal-content .close {
+	display: block;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.modal-content input {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.modal-footer {
+	text-align: center;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Organize Your Bookmarks</title>
+		<script src="jquery-3.3.1.slim.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="options.css">
+	</head>
+	<body>
+		<div class="options-container">
+			<div class="options-box">
+				<h3> Options </h3>
+				<div class="options-element" id="defaultFolderOption">
+					<label> Default Folder </label>
+					<select id="unsortedBookmark-dropdown"></select>
+				</div>
+				<div class="options-element" id="defaultPage">
+					<label> Default Page Url </label> <br/>
+					<p class="options-description">default page shows up when a new tab is opened and there are no new bookmarks (leave empty for default)</p>
+					<input type="text" name="defaultPage" id="defaultPageUrl" value="http://google.com">
+				</div>
+				<div class="options-element" id="saveFooter">
+					<button type="button" id="saveOptions"> Save </button>
+				</div>
+			</div>
+		</div>
+		<script src="options.js"></script>
+	</body>
+</html>

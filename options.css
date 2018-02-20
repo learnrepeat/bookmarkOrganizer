@@ -1,0 +1,30 @@
+.options-box {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	width: 500px;
+	min-height: 100px;
+	border-style: solid;
+}
+
+.options-box h3 {
+	text-align: center;
+}
+
+.options-element {
+	margin-bottom: 25px;
+}
+
+.options-description {
+	margin-top: 0px;
+	font-size: 11px;
+	color: grey;
+}
+
+#defaultPage input {
+	width: 100%;
+}
+
+#saveFooter {
+	text-align: right;
+}

@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Organize Your Bookmarks</title>
+		<script src="jquery-3.3.1.slim.min.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<div class="close">&times;</div>
+				<label>Folder Title </label> <br/>
+				<input type="text" id="folderTitle"></input>
+				<br/>
+				<div class="modal-footer">
+					<button id="saveFolder">Save</button>
+				</div>
+			</div>
+		</div>
+		<div class="bookmarkContainer" id="bookmarkContainer">
+			<div class="unsortedBookmarkFolder" id="unsortedBookmarks">
+				<select id="unsortedBookmark-dropdown"></select>
+				<div class="unsortedList"></div>
+				<div class="learnrepeat-footer" id="learnrepeat-footer">LearnRepeat.io</div>
+			</div>
+			<div class="sortedBookmarkContainer" id="sortedBookmarkContainer">
+			</div>
+		</div>
+		<div class="addFolder" id="addFolder">Create Folder</div>
+		<script src="main.js"></script>
+	</body>
+</html>
